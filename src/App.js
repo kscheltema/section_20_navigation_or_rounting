@@ -5,6 +5,8 @@ import Products from './Pages/Products';
 function App() {
   return (
     <div>
+      <header>    place to store the navigation         </header>
+      <main>          place to store the routes         </main>
 <Route path='/welcome'>
 <Welcome />  
    </Route>
