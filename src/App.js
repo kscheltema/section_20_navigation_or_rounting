@@ -15,9 +15,7 @@ function App() {
    <Route path='/products'>
 <Products />
    </Route>
-   <Route path='/product-detail/:productId'> 
-   {/* everything after the: is dynamic // can have multiple sub-segments /// just add more :
-   //like :productID:another */}
+   <Route path='/products/:productId'> 
 <ProductDetail />
    </Route>
    </main>
